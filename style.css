@@ -1,1 +1,28 @@
-/* Replace me with your styles! */
+*{
+	margin:0px;
+	padding:0px;
+}
+.top{
+	position:relative;
+}
+.m{
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	min-height:100vh;
+	width:100%;
+	background: rgba(0, 0, 0, 0.7);
+	justify-content:center;
+	align-items:center;
+	z-index:100;
+}
+
+.modal__addNote{
+	background-color:white;
+	height:150px;
+	width: 200px;
+	text-align: center;
+	border-radius:4px;
+	
+}
